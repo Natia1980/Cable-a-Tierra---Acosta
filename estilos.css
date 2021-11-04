@@ -1,0 +1,83 @@
+/*hojas de estilos*/
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: violet;
+    text-decoration: none;
+}
+
+ul{
+list-style: none;
+}
+
+.cabecera{
+    display: flex; 
+    padding: 16px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+.logo{
+    width: 200px;
+}
+.navegacion{
+display:flex ;
+gap:60px ;
+}
+main{
+min-height: 100vh;
+}
+.seccion1index{
+    background-image: url('../imagenes/Screenshot\ 2021-11-04\ 02.52.36.png'); 
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+
+  }
+
+.textoinicio{
+width: 500px;
+text-align: center;
+padding: 16px;
+color: honeydew;
+
+}
+
+
+
+.seccion2index{
+    color:mediumorchid;
+    background-image: linear-gradient(90deg, rgba(213,135,236,1) 19%, rgba(2,0,36,1) 57%);
+    display: flex;
+    justify-content: center;
+    min-height: 10vh;
+    
+    }
+
+    .titulo2inicio{
+        margin: 20px;
+    }
+
+
+body
+{
+  font-family: 'Lucida Grande'  ;
+}
+
+a
+{
+    color:violet ;
+}
+
+.pie{
+    background-color: rgb(255, 205, 247);
+    min-height: 10vh;
+    margin: 20px;
+}
