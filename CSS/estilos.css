@@ -1,0 +1,93 @@
+/*hojas de estilos*/
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+.nombre{
+    color: rgb(206, 70, 206);
+    text-align: center;
+}
+a {
+    color: rgb(206, 70, 206);
+    text-decoration: none;
+}
+
+ul{
+list-style: none;
+}
+
+.cabecera{
+    display: flex; 
+    padding: 16px;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 50px;
+    /* estas instrucciones son paar dejar el menu fijo, si voy escroleando
+    position: fixed;
+    width: 100%;
+    top: 0;*/
+  }
+.logo{
+    width: 100px;
+    margin-left: 200px;
+}
+.navegacion{
+display:flex ;
+gap:60px ;
+}
+
+main{
+    min-height: 100vh;
+}
+.seccion1index{
+    background-image: url('../imagenes/instalaciones\ 1.png'); 
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+
+}
+
+.textoinicio{
+width: 500px;
+text-align: center;
+padding: 16px;
+color: honeydew;
+}
+
+.seccion2index{
+    color:mediumorchid;
+    background-image: linear-gradient(90deg, rgba(213,135,236,1) 19%, rgba(2,0,36,1) 57%);
+    display: flex;
+    justify-content: center;
+    min-height: 10vh;
+    
+    }
+
+.titulo2inicio{
+    margin: 20px;
+}
+
+body{
+  font-family: 'Lucida Grande'  ;
+}
+
+
+.Whatsapp{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    background-color: rgb(79, 199, 139) ;
+    color: black;
+    border-radius: 5px;
+
+
+
+.pie{
+    background-image: linear-gradient(90deg, rgba(213,135,236,1) 19%, rgba(2,0,36,1) 57%);
+    min-height: 10vh;
+}
