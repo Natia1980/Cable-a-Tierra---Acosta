@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
 </head>
 <body>
     <header class="cabecera">
@@ -23,56 +24,98 @@
                 <li><a href="Horarios.html">Horarios</a></li>
                 <li><a href="Contacto.html">Contacto</a></li>
             </ul>
-
         </nav>
     </header>
-    <main>
-<section>
-    <h2>Tecnicas disponibles en Cable a Tierra</h2>
-    <p>En cable a tierra contamos con diferentes tecnicas, porque cada persona es un 
+
+<main>
+    <section class="seccion-tecnicas"> <!--Introduccion-->
+        <h2>Tecnicas disponibles en Cable a Tierra</h2>
+        <p>En cable a tierra contamos con diferentes tecnicas, porque cada persona es un 
        munodo y alguna de ellas puede ayudarla a reecnotraste con sigo misma</p>
-</section>
-   <div class="container">
-        <div class="row">
-            <div class="col-4">
-                <div>
-                    <h3>Reiki</h3>
-                    <P>El reiki es un tecnica milenaria para equilibrar la energia de nuestros chacras</P>
-                    <p>La sesion dura aproximadamente una hora y se recomineda como minimo realizar 4 seciones</p>
-                    <p>se coordina un turno</p>
-                </div>
+    </section>
+    <section> <!--card de tecnicas-->
+     <div class="container">
+         <!--separacion-filas-prod; no funciona, no se entera que debe dejar el espacio, corregir o encontrar el porblema-->
+        <div class="row separacion-filas-prod">
+            <div class="col-12 col-md-4">
+                <div class="card" >
+                    <img src="imagenes/reiki.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3>Reiki</h3>
+                      <p class="card-text">El reiki es un tecnica milenaria para equilibrar la energia de nuestros chacras</p>
+                      <p>La sesion dura aproximadamente una hora y se recomineda como minimo realizar 4 seciones</p>
+                      <p>se coordina un turno</p>  
+                    </div>
+                  </div>
             </div>
-            <div class="col-4">
-                <div>
-                    <h3>Yoga</h3>
-                    <P>El Yoga es un tecnica que busca ayudar al individuo a concoer y corregir su cuerpo y postura, tambien a reencontrase consigo mismo, ofrece calma y paz a su interior</P>
-                    <p>Se puede acudir todas las veces que uno desee</p>
-                    <p>Lunes 18hs. y Juevess 8hs.</p>
-                </div>
-     
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="imagenes/yoga.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Yoga</h3>
+                        <P>El Yoga es un tecnica que busca ayudar al individuo a concoer y corregir su cuerpo y postura, tambien a reencontrase consigo mismo, ofrece calma y paz a su interior</P>
+                        <p>Se puede acudir todas las veces que uno desee</p>
+                        <p>Lunes 18hs. y Juevess 8hs.</p>
+                    </div>
+                  </div>
             </div>
-            <div class="col-4">
-                <div>
-                    <h3>Yoga para niños</h3>
-                    <P>El Yoga es un tecnica que busca ayudar al individuo a concoer y corregir su cuerpo y postura, tambien a reencontrase consigo mismo, ofrece calma y paz a su interior</P>
-                    <p>Se puede acudir todas las veces que uno desee</p>
-                    <p>Martes 17hs.</p>
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="imagenes/yoganiños.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Yoga para niños</h3>
+                        <P>El Yoga es un tecnica que busca ayudar al individuo a concoer y corregir su cuerpo y postura, tambien a reencontrase consigo mismo, ofrece calma y paz a su interior</P>
+                        <p>Se puede acudir todas las veces que uno desee</p>
+                        <p>Martes 17hs.</p>
+                    </div>
+                  </div>   
+            </div>  
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="imagenes/yogaembarazadas.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Yoga para Embarazadas</h3>
+                        <P>El Yoga es un tecnica que ayuda a las embarazadas, a conectar con su propio cuerpo y con el bebé. Ayuda a aliviar los dolores posturales y contribuye a la relajacion.</P>
+                        <p>Se puede acudir todas las veces que uno desee</p>
+                        <p>Miercoles 17hs.</p>
+                    </div>
+                  </div>    
+            </div>  
+            <div class="col-12 col-md-4">
+                <div class="card" >
+                    <img src="imagenes/registro.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Registros Acashicos</h3>
+                        <P>La lectura de registros acashicos, permite conocer infromacion sobre las vivencias de nuestra alam, nos ayuda a entender nuestras cciones en la vida presente y nos ayuda a sanar.</P>
+                        <p>Se recomienda un periodo de 6 meses entre lectura y lectura</p>
+                        <p>Se coordina un turnos para dicha lectura</p>
+                    </div>
+                  </div>
+            </div>  
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="imagenes/metamorfica.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Técnica metamorfica</h3>
+                        <P>La Tecnica metamorfica, consiste en activar el axion que se encneutra en nuestro talón, para ayudarnos a desechr las emosiones negativas que ya no nos sirven. Estas estan guardadas en nuestro adn, desde nuestra concepcion y en todo nuestro periodo de permanecer en la panza de mamá</P>
+                        <p>1 Tecnica completa implica 9 sesipnes correlativas</p>
+                        <p>Se coordina un turnos para dicha técnica</p>
+                    </div>
                 </div> 
             </div>  
-        </div>
-   </div>
-<section>
+        </div> <!--row-->
+     </div> <!--containers-->
+    </section>
+</main>
 
-</section>
-
-    </main>
-
-    <footer class="pie">
+<footer class="pie">
         <div>
             <a href="Instagram" target=_blank></a>
             <a href="Faceboock" target=_blank></a>
         </div>
         <p>©2021 Cable a Tierra® - Todos los derechos reservados</p>
-    </footer>
+</footer>
+
+<script src="JS/bootstrap.bundle.js"></script>
 </body>
 </html>
